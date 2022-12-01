@@ -23,6 +23,9 @@ points.
 - If you buy items over $200 (200 included), you will receive 15% off in total and get triple
 points. 
 
+![image](https://user-images.githubusercontent.com/113135093/204962095-722e9be8-da90-4fa1-ae07-8ef7744536c2.png)
+
+
 Question3:
 
 The program prompts the user to the choice based on the item list and validates the information.
@@ -99,5 +102,8 @@ Following are some sample screen shots to illustrate the expected behavior of yo
 input at the keyboard is marked with a red circle . 
 
 
+Sample:
+
+![image](https://user-images.githubusercontent.com/113135093/204962146-bce4d8b2-a879-4345-ad43-9adc09f3a728.png)
 
 
