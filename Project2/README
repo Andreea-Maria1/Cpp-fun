@@ -10,10 +10,10 @@ c) The VFCV collected by the maximum number of vehicles.
 d) The highest VFCV which belongs to no vehicle.
 Note 1: You need to define a separate function for each part (a,b,c, and d).
 Here is the name of the functions:
- getEachVFCV (for part a)
- getAboveVFCV (for part b)
- maxNumVehiclesVFCV (for part c)
- highestVFCVnoVehicle (for part d)
+- getEachVFCV (for part a)
+- getAboveVFCV (for part b)
+- maxNumVehiclesVFCV (for part c)
+- highestVFCVnoVehicle (for part d)
 Note 2: You can define and use other functions as well if you wish.
 Note 3: You need to use an array data structure to store the VFCVs.
 Here is a sample array:
