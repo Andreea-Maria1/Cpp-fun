@@ -1,0 +1,22 @@
+Question 1
+ABC Group is doing research on the Vehicle Fuel Consumption Value (VFCV). In the first step,
+VFCV data of 20 vehicles is collected (which are integers between 5 and 25 inclusive). In the
+second step, statistical information is generated based on the following criteria:
+a) The number of vehicles which have the VFCV equals to each integer in the range of 5 and
+25 (Each output reflects the total number of vehicles with the same VFCV).
+b) The number of vehicles which have the VFCV above each integer in the range of 5 and 25.
+c) The VFCV collected by the maximum number of vehicles.
+d) The highest VFCV which belongs to no vehicle.
+Note 1: You need to define a separate function for each part (a,b,c, and d).
+Here is the name of the functions:
+ getEachVFCV (for part a)
+ getAboveVFCV (for part b)
+ maxNumVehiclesVFCV (for part c)
+ highestVFCVnoVehicle (for part d)
+Note 2: You can define and use other functions as well if you wish.
+Note 3: You need to use an array data structure to store the VFCVs.
+Here is a sample array:
+(It can be initialized inside the body of your source code without prompting user)
+int VFCV[20] ={8,12,13,15,15,15,10,9,9,10,25,18,7,6,5,10,24,10,11,12};
+Here is a sample output screen to illustrate the expected behaviour of your program. 
+
