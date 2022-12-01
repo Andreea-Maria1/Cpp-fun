@@ -18,62 +18,62 @@ If you buy items over $200 (200 included), you will receive 15% off in total and
 The program prompts the user to the choice based on the item list and validates the information. Here is a list of the functions you are required to create (as per specification) and use to solve this problem. You can create and use others functions as well if you wish.
 
 Function Name: displayHeader() 
-• Parameters: None 
-• Return: none 
-• Purpose: This function will display the welcome banner.
+- Parameters: None 
+- Return: none 
+- Purpose: This function will display the welcome banner.
 
 Function Name: displayMenu () 
-• Parameters: None. 
-• Return: none 
-• Purpose: This function displays the menu to the user.
+- Parameters: None. 
+- Return: none 
+- Purpose: This function displays the menu to the user.
 
 Function Name: getChoice () 
-• Parameters: None. 
-• Return: the valid choice from user 
-• Purpose: This function prompts the user for a valid menu choice. It will continue prompting until a valid choice has been entered.
+- Parameters: None. 
+- Return: the valid choice from user 
+- Purpose: This function prompts the user for a valid menu choice. It will continue prompting until a valid choice has been entered.
 
 Function Name: processMenuChoice () 
-• Parameters: The variable that holds the menu choice entered by the user, passing by value; the variables that holds the total price passing by reference. 
-• Return: none 
-• Purpose: This function will call the appropriate function based on the menu choice that is passed.
+- Parameters: The variable that holds the menu choice entered by the user, passing by value; the variables that holds the total price passing by reference. 
+- Return: none 
+- Purpose: This function will call the appropriate function based on the menu choice that is passed.
 
 Function Name: getPencilPrice () 
-• Parameters: None 
-• Return: the total pencil price 
-• Purpose: This function asks the user’s input of pencil quantities. The function calculates the total pencil price, which are added to the price created in main.
+- Parameters: None 
+- Return: the total pencil price 
+- Purpose: This function asks the user’s input of pencil quantities. The function calculates the total pencil price, which are added to the price created in main.
 
 Function Name: getEraserPrice () 
-• Parameters: None 
-• Return: the total eraser price 
-• Purpose: This function asks the user’s input of eraser quantities. The function calculates the total eraser price, which are added to the price created in main.
+- Parameters: None 
+- Return: the total eraser price 
+- Purpose: This function asks the user’s input of eraser quantities. The function calculates the total eraser price, which are added to the price created in main.
 
 Function Name: getPaperPrice () 
-• Parameters: None 
-• Return: the total paper price 
-• Purpose: This function asks the user’s input of paper quantities. The function calculates the total paper price, which are added to the price created in main.
+- Parameters: None 
+- Return: the total paper price 
+- Purpose: This function asks the user’s input of paper quantities. The function calculates the total paper price, which are added to the price created in main.
 
 Function Name: getNotebookPrice () 
-• Parameters: None 
-• Return: The total notebook price 
-• Purpose: This function asks the user’s input of notebook quantities. The function calculates the total notebook price, which are added to the price created in main.
+- Parameters: None 
+- Return: The total notebook price 
+- Purpose: This function asks the user’s input of notebook quantities. The function calculates the total notebook price, which are added to the price created in main.
 
 Function Name: getPSharpenerPrice () 
-• Parameters: None 
-• Return: the total pencil sharpener price • Purpose: This function asks the user’s input of sharpener quantities. The function calculates the total sharpener price, which are added to the price created in main.
+- Parameters: None 
+- Return: the total pencil sharpener price • Purpose: This function asks the user’s input of sharpener quantities. The function calculates the total sharpener price, which are added to the price created in main.
 
 Function Name: getTotalPrice() 
-• Parameters: The variables that hold the total price in main, passing by reference. 
-• Return: none 
-• Purpose: This function calculates the total price of the items that the customer bought.
+- Parameters: The variables that hold the total price in main, passing by reference. 
+= Return: none 
+- Purpose: This function calculates the total price of the items that the customer bought.
 
 Function Name: getPoints() 
-• Parameters: The variables that hold the points in main, passing by reference; member status and the total price passing by value • Return: None • Purpose: This function calculates the points that the customer will receive. 
-• The total points will be displayed only for members (please see Note2) and it will be an integer which is rounded up. Double points = 2total price, triple points = 3total price.
+- Parameters: The variables that hold the points in main, passing by reference; member status and the total price passing by value • Return: None • Purpose: This function calculates the points that the customer will receive. 
+- The total points will be displayed only for members (please see Note2) and it will be an integer which is rounded up. Double points = 2total price, triple points = 3total price.
 
 Function Name: displayResult() 
-• Parameters: The variables that hold the total price and points in main, passing by value. 
-• Return: none 
-• Purpose: This function displays the total amount to be paid and the points to receive. Note1: The price to record the total price saves two digits after decimal. 
+- Parameters: The variables that hold the total price and points in main, passing by value. 
+- Return: none 
+- Purpose: This function displays the total amount to be paid and the points to receive. Note1: The price to record the total price saves two digits after decimal. 
 
 Note2: The total points will be displayed only for members. So your program should ask user if he/she has a membership or not. Total points will be an integer which is rounded up (Hint you can use Math.ceil()) Note3: Your program must display the same information but the output can be formatted differently. Following are some sample screen shots to illustrate the expected behavior of your program. User input at the keyboard is marked with a red circle .
 Sample:
