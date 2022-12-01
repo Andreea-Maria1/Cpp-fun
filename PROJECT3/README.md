@@ -24,32 +24,35 @@ Orders
 +setPrice(double p): void
 +getItemTotal(int, double): double 
 
-
+---------------------------------------------------------------------------------------------
 b) Implement the member functions based on the following descriptions, and save them in a file
 called Orders.cpp. (You can create and use other functions as well if you wish.)
- Orders(): default constructor, which will set four attributes id, name, quantity and price
+
+- Orders(): default constructor, which will set four attributes id, name, quantity and price
 to “-1”, “null”, 1, 0.0.
- Orders(int id, string name, int quantity, double price): second constructor which sets
+- Orders(int id, string name, int quantity, double price): second constructor which sets
 all the attributes to the passed values.
- getId(): returns the id of the item.
- getName(): returns the name of the item.
- getQuantity(): returns the quantity of the item.
- getPrice(): returns the price of the item.
- setID(int i): sets the id attribute to i.
- setName(string n): sets the name attribute to n.
- setQuantity(int q): sets the quantity attribute to q.
- setPrice(double p): sets the Price attribute to p.
- getItemTotal(int, double): calculates the invoice amount (i.e., multiplies the quantity by
+
+- getId(): returns the id of the item.
+- getName(): returns the name of the item.
+- getQuantity(): returns the quantity of the item.
+- getPrice(): returns the price of the item.
+- setID(int i): sets the id attribute to i.
+- setName(string n): sets the name attribute to n.
+- setQuantity(int q): sets the quantity attribute to q.
+- setPrice(double p): sets the Price attribute to p.
+- getItemTotal(int, double): calculates the invoice amount (i.e., multiplies the quantity by
 the price for the item), then returns the amount as a double value.
+---------------------------------------------------------------------------------------------
 c) Write a program name main.cpp that uses the class Orders as follows:
- Create an object Order1 using the default constructor.
- Create object(s) of Orders using the second constructor. For this, prompt the user for the
+- Create an object Order1 using the default constructor.
+- Create object(s) of Orders using the second constructor. For this, prompt the user for the
 id, name, quantity and price of the item. Your program should ask user for a new item until
 the user enters ‘n’. (Assume the user enters valid input.)
- Write the orders and total price (for all items) in an external text file named Orders.txt
+- Write the orders and total price (for all items) in an external text file named Orders.txt
 (Figure 1). (Apply 15% TAXRATE to calculate the total price.)
 Figure 1: Orders.txt
- After getting all orders and writing to Orders.txt, ask user if (s)he wants to see the details
+- After getting all orders and writing to Orders.txt, ask user if (s)he wants to see the details
 on console output as well. If yes, display the content of Orders.txt in the output. (see
 Figure2 for the first sample output). If No, end the program with a closing message (Figure
 3).
