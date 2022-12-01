@@ -26,8 +26,6 @@ points.
 ![image](https://user-images.githubusercontent.com/113135093/204962095-722e9be8-da90-4fa1-ae07-8ef7744536c2.png)
 
 
-Question3:
-
 The program prompts the user to the choice based on the item list and validates the information.
 Here is a list of the functions you are required to create (as per specification) and use to solve this
 problem. You can create and use others functions as well if you wish.
